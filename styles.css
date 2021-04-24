@@ -1,0 +1,24 @@
+#content{
+    padding: 1rem;
+    margin: 0.8rem auto;
+    max-width: 1440px;
+}
+
+.profilepic{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-primary{
+    margin: 10px !important;
+}
+
+h4{
+    margin-bottom: px;
+}
