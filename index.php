@@ -126,8 +126,8 @@
                 }
 
 
-                echo "<a href='download.php?screenname=".$screenname."&type=xls'><button class='btn btn-primary'>Download in Excel</button></a>";
-                echo "<a href='download.php?screenname=".$screenname."&type=pdf'><button class='btn btn-primary'>Download in PDF</button></a>";
+                echo "<a href='https://twitter-clone-29.herokuapp.com/download.php?screenname=".$screenname."&type=xls'><button class='btn btn-primary'>Download in Excel</button></a>";
+                echo "<a href='https://twitter-clone-29.herokuapp.com/download.php?screenname=".$screenname."&type=pdf'><button class='btn btn-primary'>Download in PDF</button></a>";
             } else {
                 //Login
                 echo '<a href="process.php"><button class="btn btn-success">Log In</button></a>';
