@@ -3,7 +3,7 @@
     session_start();
 
     //importing files
-    include_once("twitterAuthFiles/config.php");
+    include_once("./config.php");
     include_once("twitterAuthFiles/OAuth.php");
     include_once("twitterAuthFiles/TwitterAPIExchange.php");
     include_once("twitterAuthFiles/twitteroauth.php");

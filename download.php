@@ -3,7 +3,7 @@
     session_start();
 
     //importing files
-    include_once("twitterAuthFiles/config.php");
+    include_once("./config.php");
     include_once("twitterAuthFiles/OAuth.php");
     include_once("twitterAuthFiles/TwitterAPIExchange.php");
     include_once("twitterAuthFiles/twitteroauth.php");
@@ -14,10 +14,10 @@
     $getMethod = 'GET';
 
     $settings = array(
-        'oauth_access_token' => '1223633399950102530-2M5y2931jO72nYbP9O3XZXcy6QRikw',
-        'oauth_access_token_secret' => 'fl4qt3xfB3EcutvJ4P6FH4Ldltsp9Ja7Ijub9YDbIgYJx',
-        'consumer_key' => 'MLgX7MjUHqSh7uoMo1cJWYkD7',
-        'consumer_secret' => 'ztV1qbghto1DsJE7vRsPbDdCSXCbilTzLtE6sUk3lacdUMOusz'
+        'oauth_access_token' => OAUTH_ACCESS_TOKEN,
+        'oauth_access_token_secret' => OAUTH_ACCESS_TOKEN_SECRET,
+        'consumer_key' => COSUMER_KEY,
+        'consumer_secret' => COSUMER_SECRET
     );
 
     $getfield = '?screen_name='.$screenname.'&count=10';
