@@ -28,7 +28,7 @@
     </nav>
     <div id="content">
         <?php
-            ini_set("default_socket_timeout", 60);
+            ini_set("default_socket_timeout", 150);
             if (isset($_SESSION['status']) && $_SESSION['status'] === 'verified') {
                 //if oauth is done
 
@@ -43,10 +43,10 @@
                     $screenname = $_GET['screenname'];
 
                 $settings = array(
-                    'oauth_access_token' => '1223633399950102530-2M5y2931jO72nYbP9O3XZXcy6QRikw',
-                    'oauth_access_token_secret' => 'fl4qt3xfB3EcutvJ4P6FH4Ldltsp9Ja7Ijub9YDbIgYJx',
-                    'consumer_key' => 'MLgX7MjUHqSh7uoMo1cJWYkD7',
-                    'consumer_secret' => 'ztV1qbghto1DsJE7vRsPbDdCSXCbilTzLtE6sUk3lacdUMOusz'
+                    'oauth_access_token' => OAUTH_ACCESS_TOKEN,
+                    'oauth_access_token_secret' => OAUTH_ACCESS_TOKEN_SECRET,
+                    'consumer_key' => COSUMER_KEY,
+                    'consumer_secret' => COSUMER_SECRET
                 );
 
                 $userinfo = "https://api.twitter.com/1.1/users/show.json";
